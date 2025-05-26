@@ -21,7 +21,7 @@ const Portfolio = () => {
   const techStacks = {
     language: ["Java", "JavaScript", "Python"],
     frontend: ["React", "Tailwind CSS", "Redux"],
-    backend: ["Spring"],
+    backend: ["Spring","JPA"],
     database: ["MySQL", "Redis"],
     devops: [
       "AWS EC2",
@@ -39,7 +39,7 @@ const Portfolio = () => {
       title: "삼성전자 기업연계 프로젝트, POSS",
       period: "2025.04.14 - 2025.05.25",
       type: "team",
-      category: "GUI Application Development",
+      category: "GUI Application",
       description: "데이터 사전점검 기능 및 알고리즘 수행결과 분석 화면 개발",
       details: [
         "PyQt5를 활용한 직관적인 GUI 설계 및 삼성전자 생산계획 담당자 대상 사용성 테스트 진행",
@@ -56,7 +56,7 @@ const Portfolio = () => {
       title: "우리들의 꿈꾸는 다이어리, 우꿈다",
       period: "2025.02.24 - 2025.04.11",
       type: "team",
-      category: "Infra",
+      category: "infra",
       description: "AI 기반 꿈 영상화 웹 서비스의 인프라 설계 및 운영 자동화",
       details: [
         "Certbot 기반 SSL/TLS 인증서 자동화로 HTTPS 보안 통신 환경 구축",
@@ -92,6 +92,21 @@ const Portfolio = () => {
       techStack: ["React", "Tailwind CSS"],
       demo: "https://demo.com",
       github: "https://github.com/p990805/ssafyCommonProject",
+    },
+    {
+      id: 4,
+      title: "짜스 커피",
+      period: "2024.12.09 - 2024.12.26",
+      type: "team",
+      category: "backend",
+      description: "싸피 코피의 단점을 보완한 짜스(스터디) 커피",
+      details: [
+        "JWT를 이용한 로그인 기능 구현",
+        "개인정보 조회 및 수정 내역 확인 기능 구현",
+      ],
+      techStack: ["React", "Tailwind CSS"],
+      demo: "https://demo.com",
+      github: "https://github.com/JaS-JavaStudy/jascoffee",
     },
   ];
 

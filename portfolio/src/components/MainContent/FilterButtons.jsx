@@ -1,8 +1,10 @@
 const FilterButtons = ({ selectedFilter, setSelectedFilter }) => {
   const filters = [
     { key: "all", label: "전체 프로젝트" },
-    { key: "frontend", label: "프론트엔드" },
-    { key: "fullstack", label: "풀스택" },
+    { key: "backend", label: "백엔드" },
+    { key: "GUI Application", label: "GUI" },
+    { key: "frontend", label: "프론트엔드"},
+    { key: "infra", label: "인프라"},
     { key: "personal", label: "개인 프로젝트" },
   ];
 
