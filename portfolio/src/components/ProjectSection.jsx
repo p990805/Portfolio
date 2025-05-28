@@ -169,8 +169,8 @@ const ProjectSection = forwardRef((props, ref) => {
 
             {/* Project Image */}
             {project.image ? (
-              <div className="overflow-hidden w-full h-[45%]">
-                <img src={project.image} alt="thumbnail" className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110" />
+              <div className="overflow-hidden w-full h-[50%]">
+                <img src={project.image} alt="thumbnail" className="object-contain w-full h-full transition-transform duration-300 group-hover:scale-110" />
               </div>
             ) : (
               <div className="w-full h-[45%] bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center text-4xl transition-transform duration-300 group-hover:scale-110">
