@@ -62,13 +62,13 @@ const AboutPage = () => {
               <h3 className="text-4xl font-black text-gray-200 pb-8">Main Skills</h3>
               <ul className="space-y-6">
                 {[
-                  { name: "JAVA", percent: 80, description: "알고리즘 문제 해결과 백엔드 개발에 주로 사용하는 언어입니다. 객체지향 설계에 익숙하며, Spring Boot 기반의 웹 애플리케이션을 개발할 수 있습니다."},
-                  { name: 'Python', percent: 70, description: "초기에 개발을 배울 때 사용한 언어이며, PyQt 라이브러리를 활용해 삼성전자 기업연계 프로젝트를 수행한 경험이 있습니다." },
-                  { name: 'JavaScript', percent: 70, description: "ES6+ 문법을 활용해 개발할 수 있으며, 백엔드 API를 연동하고 React 프레임워크를 이용한 프로젝트 경험이 있습니다." },
-                  { name: 'Spring Boot', percent: 75, description: "주력 프레임워크로 사용하고 있으며, Spring Security를 활용해 JWT 및 OAuth 2.0 기반 인증 기능을 구현한 경험이 있습니다. 현재도 Spring 기반 프로젝트를 진행 중입니다." },
-                  { name: 'React', percent: 75, description: "컴포넌트 기반 아키텍처로 프로젝트를 개발하였으며, 주요 React Hook과 Redux Toolkit을 활용한 상태 관리 경험이 있습니다." },
-                  { name: 'Git', percent: 70, description: '프로젝트를 진행하면서 Gitlab과 Github를 이용하였으며 Git을 활용한 버전 관리와 협업, 브랜치 전략을 이해하고 실무에 적용합니다.' },
-                  { name: 'JIRA', percent: 70, description: "애자일 방식의 프로젝트 관리 도구로 Jira를 활용하여 스토리 포인트 기반의 작업 분배와 번다운 차트를 통한 진행 상황 시각화를 수행하였습니다. 팀 내 커뮤니케이션, 우선순위 관리, 스프린트 운영 등 전반적인 협업 프로세스를 경험하였습니다." },
+                  { name: "JAVA", percent: 60, description: "알고리즘 문제 해결과 백엔드 개발에 주로 사용하는 언어입니다. 객체지향 설계에 익숙하며, Spring Boot 기반의 웹 애플리케이션을 개발할 수 있습니다."},
+                  { name: 'Python', percent: 60, description: "초기에 개발을 배울 때 사용한 언어이며, PyQt 라이브러리를 활용해 삼성전자 기업연계 프로젝트를 수행한 경험이 있습니다." },
+                  { name: 'JavaScript', percent: 60, description: "ES6+ 문법을 활용해 개발할 수 있으며, 백엔드 API를 연동하고 React 프레임워크를 이용한 프로젝트 경험이 있습니다." },
+                  { name: 'Spring Boot', percent: 55, description: "주력 프레임워크로 사용하고 있으며, Spring Security를 활용해 JWT 및 OAuth 2.0 기반 인증 기능을 구현한 경험이 있습니다. 현재도 Spring 기반 프로젝트를 진행 중입니다." },
+                  { name: 'React', percent: 55, description: "컴포넌트 기반 아키텍처로 프로젝트를 개발하였으며, 주요 React Hook과 Redux Toolkit을 활용한 상태 관리 경험이 있습니다." },
+                  { name: 'Git', percent: 60, description: '프로젝트를 진행하면서 Gitlab과 Github를 이용하였으며 Git을 활용한 버전 관리와 협업, 브랜치 전략을 이해하고 실무에 적용합니다.' },
+                  { name: 'JIRA', percent: 60, description: "애자일 방식의 프로젝트 관리 도구로 Jira를 활용하여 스토리 포인트 기반의 작업 분배와 번다운 차트를 통한 진행 상황 시각화를 수행하였습니다. 팀 내 커뮤니케이션, 우선순위 관리, 스프린트 운영 등 전반적인 협업 프로세스를 경험하였습니다." },
                 ].map((skill, index) => (
                   <li key={index} className="mb-8">
                     <div className="skill-name text-xl font-bold text-gray-200 mb-3">

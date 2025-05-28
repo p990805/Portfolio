@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronDown } from 'lucide-react';
+import { ChevronUp } from 'lucide-react';
 
 const MainPage = () => {
   return (
@@ -58,7 +58,7 @@ const MainPage = () => {
         </div>
         
         <p className="font-normal text-xl text-gray-800 text-center max-md:text-sm max-lg:text-base mb-2">
-         팀원들과 함께하는 <strong className="font-bold text-[106%]">협업</strong> 마인드,
+          <strong className="font-bold text-[106%]">강한 팀워크와 협업 중심의 태도로 </strong>3회 연속 프로젝트 베스트 멤버 선정,
         </p>
         <p className="font-normal text-xl text-gray-800 text-center max-md:text-sm max-lg:text-base">
           포기하지 않고 <strong className="font-bold text-[106%]">책임감</strong>있게 일하는 개발자입니다.
@@ -68,8 +68,8 @@ const MainPage = () => {
 
       {/* Scroll Down Indicator */}
       <div className="absolute bottom-12 left-1/2 translate-x-[-50%] z-20 flex flex-col items-center rotate-180 animate-bounce">
-        <ChevronDown className="text-white w-6 h-4 mb-1" strokeWidth={3} />
-        <ChevronDown className="text-white w-6 h-4" strokeWidth={3} />
+        <ChevronUp className="text-black h-4 mb-1" strokeWidth={3} />
+        <ChevronUp className="text-black w-6 h-4" strokeWidth={3} />
       </div>
 
       {/* Update Date */}
