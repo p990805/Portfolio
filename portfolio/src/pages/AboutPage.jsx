@@ -16,19 +16,22 @@ const AboutPage = () => {
               <h3 className="text-4xl font-black text-gray-200 pb-8">Interview</h3>
               
               {/* Q&A Items */}
-              <p className="leading-relaxed">
-                개발은  
-                <span className="inline-block bg-gray-900 text-white px-2 py-1 rounded-md font-bold mx-1">
-                  끝이 아니라 시작
-                </span>
-                이라고 생각합니다.<br/>
-                과거에는 프로젝트의 마감일만을 목표로 삼아, 일단 완성에만 집중하고 오류가 드러나지만 않으면 된다는 안일한 태도를 가졌습니다.<br/>
-                그러나<span className="inline-block bg-gray-900 text-white px-2 py-1 rounded-md font-bold mx-1">삼성전자 기업연계 프로젝트에 참여</span>하면서, 제가 작성한 코드를 직접 인수인계하고 운영까지 책임져야 하는 상황을 경험했습니다.<br/>
-                그 과정에서 그동안 미뤄뒀던 버그와 부족한 문서화가 큰 부담이 되었고, 그제야 깨달았습니다. <br/>
-                <span className="inline-block bg-gray-900 text-white px-2 py-1 rounded-md font-bold mx-1">개발은 단순히 작동하는 코드를 만드는 것이 아니라, 그 이후의 유지보수와 협업까지 고려한 과정</span>이라는 것을요.<br/>
-                그래서 지금은 초기 개발 단계부터 코드의 품질, 명확한 구조, 주석과 문서화, 그리고 협업을 고려한 개발 문화를 더욱 중요하게 생각하고 있습니다.
-              </p>
+              <div className="relative text-base mb-5 bg-gray-200 text-gray-900 p-5 rounded-2xl">
+                <h5 className="text-2xl font-bold pb-6">Q. 개발에 있어 가장 중요하게 생각하는 것이 있다면?</h5>
+                <p className="leading-relaxed">
+                  개발은  
+                  <span className="inline-block bg-gray-900 text-white px-2 py-1 rounded-md font-bold mx-1">
+                    끝이 아니라 시작
+                  </span>
+                  이라고 생각합니다.<br/>
+                  과거에는 프로젝트의 마감일만을 목표로 삼아, 일단 완성에만 집중하고 오류가 드러나지만 않으면 된다는 안일한 태도를 가졌습니다.<br/>
+                  그러나<span className="inline-block bg-gray-900 text-white px-2 py-1 rounded-md font-bold mx-1">삼성전자 기업연계 프로젝트에 참여</span>하면서, 제가 작성한 코드를 직접 인수인계하고 운영까지 책임져야 하는 상황을 경험했습니다.<br/>
+                  그 과정에서 그동안 미뤄뒀던 버그와 부족한 문서화가 큰 부담이 되었고, 그제야 깨달았습니다. <br/>
+                  <span className="inline-block bg-gray-900 text-white px-2 py-1 rounded-md font-bold mx-1">개발은 단순히 작동하는 코드를 만드는 것이 아니라, 그 이후의 유지보수와 협업까지 고려한 과정</span>이라는 것을요.<br/>
+                  그래서 지금은 초기 개발 단계부터 코드의 품질, 명확한 구조, 주석과 문서화, 그리고 협업을 고려한 개발 문화를 더욱 중요하게 생각하고 있습니다.
+                </p>
 
+              </div>
 
               <div className="relative text-base mb-5 bg-gray-200 text-gray-900 p-5 rounded-2xl">
                 <h5 className="text-2xl font-bold pb-6">Q. 백엔드 개발을 희망하는 이유는 무엇인가요?</h5>
