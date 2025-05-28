@@ -7,14 +7,15 @@ const ProjectRetrospectiveModal = ({ isOpen, onClose, project }) => {
   // 각 프로젝트별 회고록 데이터
   const retrospectiveData = {
     "POSS - 삼성전자 생산계획 최적화 시스템": {
-      period: "2024.09 ~ 2024.11 (3개월)",
+      period: "2025.04 ~ 2025.05 (6주)",
       teamSize: "6명",
       role: "팀장 및 GUI 개발 담당",
       challenges: [
         "PyQt5를 처음 사용하면서 GUI 프레임워크에 대한 이해 부족",
-        "QHD와 FHD 해상도 간 UI 일관성 문제로 인한 사용자 경험 저하",
+        "QHD와 FHD 해상도 간 UI 일관성 문제로 인한 개발자 개발 혼동 및 사용자 경험 저하",
         "삼성전자 담당자와의 직접적인 소통에서 오는 부담감과 책임감",
-        "PyQt 애플리케이션에서 전역 상태 관리의 복잡성"
+        "PyQt 애플리케이션에서 전역 상태 관리의 복잡성",
+        "삼성전자 담당자들도 진행 중이라 계속해서 바뀌는 요구사항"
       ],
       solutions: [
         "PyQt5 공식 문서와 예제 코드를 통한 집중적인 학습 및 실습",
@@ -23,20 +24,20 @@ const ProjectRetrospectiveModal = ({ isOpen, onClose, project }) => {
         "실사용자 피드백을 통한 지속적인 시스템 개선"
       ],
       achievements: [
-        "기업 연계 프로젝트 성공적 완료 및 실제 운영 환경 배포",
+        "기업 연계 프로젝트 성공적 완료 및 실제 운영 환경 Nuitka 라이브러리를 이용한 exe 파일로 배포",
         "해상도 독립적인 UI 시스템 구축으로 사용자 경험 통일성 확보",
         "PyQt5 GUI 개발 전문성 습득 및 상태 관리 아키텍처 설계 능력 향상",
         "팀장으로서 프로젝트 관리 및 커뮤니케이션 스킬 발전"
       ],
       lessons: [
         "개발은 완성이 아닌 시작이라는 점을 깨달음",
-        "사용자 중심 설계와 크로스 플랫폼 호환성의 중요성",
+        "초반 설계의 중요성",
         "실무 환경에서의 협업과 책임감의 무게 경험",
         "기술적 도전과 비즈니스 요구사항 간의 균형점 찾기"
       ]
     },
     "우꿈다 - 우리들의 꿈꾸는 다이어리": {
-      period: "2024.10 ~ 2024.11 (6주)",
+      period: "2025.02 ~ 2025.04 (6주)",
       teamSize: "6명",
       role: "인프라 및 DevOps 담당",
       challenges: [
@@ -65,7 +66,7 @@ const ProjectRetrospectiveModal = ({ isOpen, onClose, project }) => {
       ]
     },
     "티아라 - 티 없이 맑게 자라(아)라": {
-      period: "2024.11 ~ 2024.12 (6주)",
+      period: "2025.01 ~ 2025.02 (6주)",
       teamSize: "6명",
       role: "팀장 및 프론트엔드 개발 담당",
       challenges: [
@@ -94,8 +95,8 @@ const ProjectRetrospectiveModal = ({ isOpen, onClose, project }) => {
       ]
     },
     "짜스 커피": {
-      period: "2024.08 ~ 2024.09 (4주)",
-      teamSize: "4명",
+      period: "2024.12 ~ 2024.12 (2주)",
+      teamSize: "6명",
       role: "백엔드 개발 담당",
       challenges: [
         "JWT를 활용한 인증 시스템 구현의 복잡성",
@@ -120,23 +121,20 @@ const ProjectRetrospectiveModal = ({ isOpen, onClose, project }) => {
       ]
     },
     "포트폴리오 사이트": {
-      period: "2024.12 ~ 2025.01 (개인 프로젝트)",
+      period: "2025.05 ~ 2025.05 (개인 프로젝트)",
       teamSize: "1명 (개인)",
-      role: "풀스택 개발",
+      role: "프론트 개발",
       challenges: [
-        "React 기반 SPA에서의 성능 최적화",
         "반응형 디자인과 다양한 디바이스 호환성",
         "이메일 전송 기능 구현과 스팸 방지"
       ],
       solutions: [
-        "React.memo와 useMemo를 활용한 렌더링 최적화",
         "Tailwind CSS를 활용한 모바일 퍼스트 반응형 디자인",
         "EmailJS와 환경변수를 활용한 안전한 이메일 시스템 구축"
       ],
       achievements: [
         "개인 브랜딩을 위한 전문적인 포트폴리오 사이트 완성",
         "모던한 UI/UX와 인터랙티브한 애니메이션 구현",
-        "SEO 최적화와 웹 접근성 향상"
       ],
       lessons: [
         "개인 프로젝트에서의 자기주도적 학습과 문제해결 능력",

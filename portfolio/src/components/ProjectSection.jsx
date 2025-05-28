@@ -130,11 +130,11 @@ const ProjectSection = forwardRef((props, ref) => {
         {filteredProjects.map((project, index) => (
           <section key={index} className="overflow-hidden flex flex-col justify-start gap-8 rounded bg-gray-200 relative h-[25rem] group transition-all hover:shadow-black hover:shadow-2xl hover:translate-y-[-5px]">
             {/* Hover Overlay */}
-            <div className="absolute z-30 flex flex-col items-center justify-center gap-8 text-white w-full h-full p-5 bg-gray-800 bg-opacity-95 opacity-0 transition-all duration-300 group-hover:opacity-100">
-              <h4 className="font-bold text-xl text-center mb-2">{project.title}</h4>
+            <div className="absolute z-30 flex flex-col items-center justify-center gap-3 text-white w-full h-full p-4 bg-gray-800 bg-opacity-95 opacity-0 transition-all duration-300 group-hover:opacity-100">
+              <h4 className="font-bold text-lg text-center mb-1">{project.title}</h4>
               
               {/* My Role Section */}
-              <div className="w-full max-h-32 overflow-y-auto">
+              <div className="w-full flex-1 max-h-48 overflow-y-auto">
                 <h5 className="font-semibold text-sm mb-2 text-blue-300">🔧 담당 역할</h5>
                 <ul className="text-xs space-y-1">
                   {project.myRole.map((role, roleIndex) => (
@@ -151,18 +151,18 @@ const ProjectSection = forwardRef((props, ref) => {
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full p-2 border border-white text-white rounded text-center text-sm transition hover:bg-white hover:text-gray-900 flex items-center justify-center gap-2"
+                  className="flex-1 p-2 border border-white text-white rounded text-center text-xs transition hover:bg-white hover:text-gray-900 flex items-center justify-center gap-1"
                 >
                   <span>🔗</span>
-                  GitHub에서 코드 보기
+                  GitHub
                 </a>
                 
                 <button
                   onClick={() => openRetrospectiveModal(project)}
-                  className="w-full p-2 bg-purple-600 text-white rounded text-center text-sm transition hover:bg-purple-700 flex items-center justify-center gap-2"
+                  className="flex-1 p-2 bg-purple-600 text-white rounded text-center text-xs transition hover:bg-purple-700 flex items-center justify-center gap-1"
                 >
                   <span>📝</span>
-                  프로젝트 회고록 보기
+                  회고록
                 </button>
               </div>
             </div>
