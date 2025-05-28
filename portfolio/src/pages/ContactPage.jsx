@@ -101,7 +101,8 @@ const ContactPage = () => {
           <div className="space-y-2 text-gray-300">
             <p className="text-lg">언제든지 연락주세요!</p>
             <p className="text-base">궁금한 점이나 협업 제안이 있으시면</p>
-            <p className="text-base">아래 양식을 통해 메시지를 보내주세요.</p>
+            <p className="text-base">아래 이메일을 통해 메시지를 보내주세요.</p>
+            <p className="text-base">옆에서도 즉시 이메일을 보낼 수 있습니다.</p>
             
             {/* Direct Contact Info */}
             <div className="mt-6 p-4 bg-gray-800 rounded-lg">
@@ -114,6 +115,36 @@ const ContactPage = () => {
               </a>
             </div>
           </div>
+
+          <div className="flex gap-5 w-full z-20">
+        <div className="relative flex justify-center group">
+          <a 
+            href="https://github.com/p990805" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative flex gap-1 items-center flex-col z-20 font-medium py-1 px-2 transition-all ease-in-out duration-300 hover:text-black after:content-[''] after:absolute after:bottom-[-2px] after:left-0 after:z-[-1] after:w-full after:h-1 after:bg-gray-300 after:block after:transition-all after:ease-in-out after:duration-300 hover:after:h-full"
+          >
+            GitHub
+          </a>
+          <div className="fixed flex items-center justify-center overflow-hidden rounded px-2 py-1 translate-y-[140%] invisible z-10 after:absolute after:flex after:left-0 after:top-0 after:right-0 after:bottom-0 after:w-full after:h-full after:bg-gray-800 after:opacity-80 after:z-[-1] group-hover:visible">
+            <span className="text-xs text-white">GitHub 가기</span>
+          </div>
+        </div>
+        
+        <div className="relative flex justify-center group">
+          <a 
+            href="https://p990805.tistory.com/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative flex gap-1 items-center flex-col z-20 font-medium py-1 px-2 transition-all ease-in-out duration-300 hover:text-black after:content-[''] after:absolute after:bottom-[-2px] after:left-0 after:z-[-1] after:w-full after:h-1 after:bg-gray-300 after:block after:transition-all after:ease-in-out after:duration-300 hover:after:h-full"
+          >
+            Tstory
+          </a>
+          <div className="fixed flex items-center justify-center overflow-hidden rounded px-2 py-1 translate-y-[140%] invisible z-10 after:absolute after:flex after:left-0 after:top-0 after:right-0 after:bottom-0 after:w-full after:h-full after:bg-gray-800 after:opacity-80 after:z-[-1] group-hover:visible">
+            <span className="text-xs text-white">블로그 가기</span>
+          </div>
+        </div>
+      </div>
         </div>
 
         {/* Right Side - Contact Form */}
