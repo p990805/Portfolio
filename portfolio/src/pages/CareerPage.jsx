@@ -25,8 +25,10 @@ const CareerPage = () => {
         });
       },
       {
-        rootMargin: '-20% 0% -20% 0%', // 상하 20% 마진으로 중앙 60% 영역에서만 감지
-        threshold: 0.3 // 30% 이상 보일 때 감지
+        // 화면 상단에서 100px 지점에서 감지하도록 수정
+        rootMargin: '-100px 0px -60% 0px',
+        // threshold를 낮춰서 조금만 보여도 감지되도록 수정
+        threshold: 0.1
       }
     );
 
@@ -80,8 +82,8 @@ const CareerPage = () => {
         ))}
       </nav>
 
-      {/* Content */}
-      <section className="flex flex-col flex-1 gap-60 pb-20">
+      {/* Content - gap을 줄여서 감지 개선 */}
+      <section className="flex flex-col flex-1 gap-40 pb-20">
         <ProjectSection ref={projectRef} />
         <EducationSection ref={educationRef} />
       </section>
