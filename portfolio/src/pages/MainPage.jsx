@@ -48,10 +48,10 @@ const MainPage = () => {
       <section className="absolute top-50 flex items-center flex-col mb-20 w-full mt-[calc(100vh-85vh)] max-sm:mt-[calc(100vh-90vh)]">
         <div className="relative w-full">
           <h2 className="text-5xl text-black font-normal mb-6 relative z-10 w-full text-center max-sm:text-xl max-lg:text-3xl">
-            백엔드 개발자 <strong className="font-black">박주찬</strong>입니다.
+            팀원들이 가장 신뢰하는 개발자 <strong className="font-black">박주찬</strong>입니다.
             <div className="absolute z-[-1] top-0 left-1/2 w-full overflow-hidden translate-y-[-105%] translate-x-[-50%]">
               <p className="text-[10rem] font-black text-white leading-[1] max-sm:text-[4rem] max-lg:text-[6rem] select-none">
-                Back-End
+                Developer
               </p>
             </div>
           </h2>
