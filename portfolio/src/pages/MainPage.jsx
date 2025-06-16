@@ -75,7 +75,7 @@ const MainPage = () => {
       {/* Update Date */}
       <div className="absolute left-10 bottom-10 max-sm:left-5 max-sm:bottom-5 z-20">
         <span className="block text-base text-gray-500 max-sm:text-sm">
-          update. 25. 05. 28
+          update. 25. 06. 17
         </span>
       </div>
     </main>
